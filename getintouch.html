@@ -1,0 +1,71 @@
+<!--22000764 LEBOKO GAEDIE-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="Brand Images\companylogo.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="Brand Images\companylogo.jpg" alt="BetterHomeOffice Logo" width="80"></a>
+        <h2><a href="index.html">BetterHomeOffice</a></h2>
+    </header>
+
+    <nav class="navbar">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="staffpage.html">Staff</a></li>
+            <li><a href="getintouch.html">Contact Us</a></li>
+            <li><a href="https://www.facebook.com/BetterHomeOffice" target="_blank"><img
+                        src="Social Media Links\fblogo.png" alt="Facebook" width="35" height="auto"></a></li>
+            <li><a href="https://www.twitter.com/BetterHomeOffice" target="_blank"><img
+                        src="Social Media Links\twitterlogo.png" alt="Twitter" width="35" height="auto"></a></li>
+        </ol>
+    </nav>
+
+    <div id="time" title="Current Time"></div>
+
+    <main>
+    <div class="EmailForm">
+        <h1>Contact Us</h1>
+        <form action="serversidescript.php" method="post">
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name" placeholder="SpongeBob">
+            <br><br>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="ninja007@bond.com">
+            <br><br>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+            <br><br>
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="Type message..." rows="3" required></textarea>
+            <br><br>
+            <button class="button" type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    </main>
+
+    <br><br>
+
+    <footer>
+        <p>&copy; 2024 BetterHomeOffice. All rights reserved.</p>
+        <p><b>Official Patners;</b></p>
+        <a href="https://btc.bw/smega/" target="_blank"><img src="Patners\smega.jpg" alt="Smega" class="centerimg"></a>
+        <br>
+        <a href="https://www.dhl.com/bw-en/home.html" target="_blank"><img src="Patners\dhl.jpg" alt="DHL"
+                class="centerimg"></a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,330 @@
+/*22000764 LEBOKO GAEDIE*/
+
+/*Header Styling*/
+header {
+    font-family: Raleway, sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px outset black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: grey;
+}
+
+header a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/*Navbar Text Styling*/
+h2 {
+    text-decoration: none;
+    color: grey;
+    float: right;
+    font-size: 28px;
+}
+
+/*Footer Styling*/
+footer {
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*Footer Image Centering Styling*/
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2.9%;
+    height: auto;
+
+}
+
+/*About Us Section Styling*/
+.aboutus {
+    float: left;
+    font-family: raleway, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px outset white;
+    border-radius: 18px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+
+}
+
+/*About Us List Styling*/
+.aboutus ol {
+    list-style-type: square;
+}
+
+/*Body Styling*/
+body {
+    margin: 0;
+    font-family: raleway, sans-serif;
+    padding: 20px;
+    background-image: url(bckgrnd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*Navbar Styling*/
+.navbar {
+    background-color: rgba(128, 128, 128, 0.85);
+    border-radius: 22px;
+    padding: 40px;
+}
+
+/*Navbar List Styling*/
+.navbar ol {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Navbar Individual List Styling*/
+.navbar ol li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/*Navbar Link Styling*/
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+
+/*Navbar Link Hover Styling*/
+.navbar a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*Navbar Text Styling*/
+.navbar p {
+    font-size: 15px;
+}
+
+/*Navbar Current Website Styling*/
+.navbar a.active {
+    border-bottom: 3px solid black;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+/*Welcome Section Styling*/
+.welcome_message {
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px black;
+    padding: 15px;
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Reveal Bio Button*/
+.revealbio {
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+/*Reveal Bio Hover Styling*/
+.revealbio:hover {
+    background-color: grey;
+}
+
+/*Initially Hide Content*/
+.bio {
+    display: none;
+}
+
+/*Button Styling*/
+.button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*Button Hover Styling*/
+.button:hover {
+    background-color: grey;
+}
+
+/*Heading Styling*/
+h1,
+p {
+    text-align: center;
+}
+
+/*Email Form Styling*/
+.EmailForm {
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Input & Text Area Styling*/
+input,
+textarea {
+    width: 81%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+
+
+/*Displaying workers in one line*/
+.workercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Each Worker Profile Styling*/
+.workerprofile {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    min-width: 250px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    padding: 14px;
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*Worker Image Styling*/
+.workerprofile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/*Form Validation Error Message Styling*/
+.error {
+    font-family: Raleway, sans-serif;
+    font-weight: bolder;
+    color: red;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/*Product Table Styling*/
+table {
+    font-family: Raleway, sans-serif;
+    width: 95%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/*Table Caption Styling*/
+caption {
+
+    margin: 30px;
+    font-size: 30px;
+    float: center;
+    color: grey;
+    cursor: pointer;
+}
+
+/*First Row Styling*/
+.firstrow {
+    font-size: 28px;
+}
+
+/*Table Header And Table Data Styling*/
+th,
+td {
+
+    padding: 8px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 3px solid grey;
+    cursor: pointer;
+}
+
+
+/*Responsiveness For Mobile Devices*/
+@media (max-width: 768px) {
+    .workercontainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .workerprofile {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .workerprofile img {
+        width: 120px;
+        height: auto;
+    }
+}
+
+/*Responsiveness For Smaller Desktops*/
+@media (max-width: 992px) {
+    footer .centerimg {
+        width: 80px;
+    }
+
+    header img {
+        width: 70px;
+    }
+
+    .navbar ol {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/*Time Display Formatting*/
+#time {
+    font-size: 2em;
+    font-family: Raleway, sans-serif;
+    margin-top: 20px;
+    text-align: right;
+    color: white;
+    cursor: pointer;
+}
