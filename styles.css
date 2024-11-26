@@ -378,3 +378,78 @@ td {
         font-size: 14px;
     }
 }
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and medium-sized screens (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Stack navbar items vertically */
+    .navbar ol {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust header layout */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    header img {
+        width: 60px;
+    }
+
+    /* Adjust form layout */
+    .EmailForm {
+        padding: 15px;
+        max-width: 90%; /* Make form width smaller */
+    }
+
+    .EmailForm h1 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust form input and button size */
+    .EmailForm input,
+    .EmailForm textarea {
+        font-size: 14px;
+    }
+
+    .EmailForm button {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    /* Footer adjustments */
+    footer .centerimg {
+        max-width: 150px;
+    }
+}
+
+/* For very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    header img {
+        width: 50px;
+    }
+
+    .EmailForm h1 {
+        font-size: 1.5em;
+    }
+
+    .EmailForm button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    footer .centerimg {
+        max-width: 120px;
+    }
+}
