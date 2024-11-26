@@ -283,42 +283,6 @@ td {
 }
 
 
-/*Responsiveness For Mobile Devices*/
-@media (max-width: 768px) {
-    .workercontainer {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .workerprofile {
-        flex: 1 1 100%;
-        margin-bottom: 20px;
-        max-width: 100%;
-    }
-
-    .workerprofile img {
-        width: 120px;
-        height: auto;
-    }
-}
-
-/*Responsiveness For Smaller Desktops*/
-@media (max-width: 992px) {
-    footer .centerimg {
-        width: 80px;
-    }
-
-    header img {
-        width: 70px;
-    }
-
-    .navbar ol {
-        align-items: center;
-        flex-direction: column;
-    }
-}
-
 /*Time Display Formatting*/
 #time {
     font-size: 2em;
@@ -327,4 +291,90 @@ td {
     text-align: right;
     color: white;
     cursor: pointer;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+    /* Navbar items stacked vertically */
+    .navbar ol {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust header elements */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Reduce size of images in navbar */
+    .navbar img {
+        width: 30px;
+    }
+
+    /* Adjust welcome message font size */
+    .welcome_message h1 {
+        font-size: 1.5em;
+    }
+
+    /* Stack About Us list items */
+    .aboutus ol {
+        padding-left: 20px;
+    }
+
+    /* Footer adjustments for smaller screens */
+    footer .centerimg {
+        max-width: 150px;
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+    /* Navbar items stacked vertically */
+    .navbar ol {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust header elements */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Resize the logo in the header */
+    header img {
+        width: 60px;
+    }
+
+    /* Adjust font size for smaller screens */
+    .welcome_message h1 {
+        font-size: 1.2em;
+    }
+
+    /* Stack About Us items more closely */
+    .aboutus ol {
+        padding-left: 10px;
+    }
+
+    /* Footer adjustments */
+    footer .centerimg {
+        max-width: 120px;
+    }
+
+    /* Adjust the button in welcome message */
+    .button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
 }
